@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@mipmap/titleback"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_back_selector"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margn_box"
+            android:id="@+id/ID_BTN_LEFT"
+            />
+        <TextView
+            android:id="@+id/ID_TXT_TITLE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="middle"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/open_sdcard"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_normal" />
+
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/margn_box"
+            >
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ID_PRGRSS_LOADING"
+                android:layout_gravity="center_vertical|right"
+                android:indeterminateDrawable="@drawable/progressbar_anim"
+                android:indeterminateDuration="800"
+                android:visibility="gone"
+                />
+            <Button
+                android:id="@+id/ID_BTN_REFRESH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_refresh_selector"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ID_GRID_VIEW"
+            android:cacheColorHint="#00000000"
+            android:listSelector="#00000000"
+            android:padding="5dp"
+            android:numColumns="2"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="5dp"
+            android:gravity="center"
+            >
+        </GridView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_rect"
+            android:id="@+id/ID_TXT_PAGE"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="@dimen/font_smaller"
+            android:textColor="@android:color/white"
+            android:text="2/3"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="2dp"
+            />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/ID_AD_VIEW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2925148926153054/9599973920" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  PSD.See
+
+  Created by Larry on 16/10/1.
+  Copyright © 2016年 MaiMiao. All rights reserved.
+*/
+"deleting" = "删除";
+"synctitle" = "连接列表";
+"wifinotconnect" = "没有可用的Wifi连接，请先打开Wifi并连接";
+"add connect" = "添加连接";
+"add" = "添加";
+"server ip" = "服务器IP";
+"hint server ip" = "请输入服务器IP地址";
+"passwrod" = "服务器密码";
+"hint password" = "请输入密码";
+"new server help" = "请输入在 Photoshop CS5(12.0.4)或更高版本以上的菜单 '编辑' > '远程连接' 里设置的服务器密码和IP地址";
+"serverIpNull" = "请输入服务器IP地址";
+"passwordNull" = "请输入密码";
+"connectServerFail" = "无法连接到服务器";
+"createKeyFail" = "秘钥生成失败";
+"passwordError" = "密码错误，请输入正确的密码";
+"imageTypeError" = "图像格式错误，只支持JPEG格式";
+"about" = "关于我们";
+"delete" = "删除";
+"psversion" = "请在电脑上运行Photoshop CS5(12.0.4)或更高版本";
+"helpWifi" = "电脑与手机需要连接到同一WiFi";
+"editmenu" = "在Photoshop菜单中选择 '编辑' > '远程连接...'";
+"openConnect" = "输入您的密码并且选中'启用远程连接'";
+"helpRemoteConnect" = "远程连接帮助";
+"helpRemoteConnect6" = "请输入在Photoshop菜单 '编辑' > '远程连接' 里设置的服务器密码和IP地址. 参见第3步";
+"error_save_title" = "无法访问相册";
+"error_save_info" = "请在iPhone的“设置-隐私-照片”中允许PSD.See访问您的照片。";
+"save_ok" = "保存成功";
+"ok" = "确定";
+"not_connect_ps" = "没有连接到Photoshop";
+"check_update" = "更新检查";
+"loading" = "正在联网...";
+"http_error" = "网络异常，请稍后再试";
+"server_error" = "服务器异常，请稍后再试";
+"no_need_update" = "当前已是最新版本，无需更新";
+"need_update" = "App Store已有最新版本，建议升级。";
+"update_now" = "立即更新";
+"next_time" = "以后再说";
+"review_me" = "给我评分";
+"transfer" = "面对面传输";
+"error_file" = "文件信息错误";
+"no_ip" = "IP地址无效";
+"qr_info_1" = "扫一扫上面的二维码图片或在浏览器中输入 ";
+"qr_info_2" = "";
+"scan_qr_code" = "扫一扫";
+"scan_info" = "将二维码放入扫描框内，即可自动扫描";
+"file_invalid" = "文件信息无效";
+"open_photos" = "打开相册";
+"help" = "使用帮助";
+"refresh_finish" = "刷新完成";
+"comment_info" = "如果该app对您有所帮助请给我好评或提出您宝贵的意见";
+"comment_ok" = "立即前往";
+"comment_cancel" = "下次再说";
+"reload_images" = "刷新文件列表";
+"error_1" = "文件格式无效，必须是PSD格式文档";
+"error_2" = "文档颜色模式必须是RGB格式";
+"error_4" = "不支持的压缩模式，只支持RLE模式";
+"error_5" = "深度信息必须为8位";
+"error_6" = "文件打开失败";
+"up" = "上一级";
+"file_list" = "文件列表";
+"Source code link" = "项目源代码链接";

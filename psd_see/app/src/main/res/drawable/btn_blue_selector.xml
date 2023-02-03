@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:constantSize="false" android:dither="false">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/blue_round_rect_2" /> <!-- pressed -->
+    <item android:state_enabled="false"
+          android:drawable="@drawable/blue_round_rect_2"/>
+    <item android:state_focused="true"
+        android:state_pressed="@drawable/blue_round_rect_2"
+        android:drawable="@drawable/blue_round_rect_1" />
+    <item android:drawable="@drawable/blue_round_rect_1" />
+
+</selector>

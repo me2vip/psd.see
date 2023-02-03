@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:constantSize="false" android:dither="false">
+    <item android:state_pressed="true"
+          android:drawable="@mipmap/remove_c_press" /> <!-- pressed -->
+    <item android:state_enabled="false"
+          android:drawable="@mipmap/remove_c_press"/>
+    <item android:state_focused="true"
+        android:state_pressed="@mipmap/remove_c_press"
+        android:drawable="@mipmap/remove_c_normal" />
+    <item android:drawable="@mipmap/remove_c_normal" />
+
+</selector>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/merge_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/font_normal"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:text="@string/server_ip"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/ID_EDIT_SERVER"
+            android:hint="@string/hint_server_ip"
+            android:background="@drawable/input_box"
+            android:textSize="@dimen/font_normal"
+            android:textColor="@color/font_black"
+            android:digits="0123456789."
+            android:inputType="number|numberDecimal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/font_normal"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:text="@string/password"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/ID_EDIT_PWD"
+            android:hint="@string/hint_password"
+            android:background="@drawable/input_box"
+            android:textSize="@dimen/font_normal"
+            android:textColor="@color/font_black"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ID_BTN_ADD"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_normal"
+        android:text="@string/add"
+        android:background="@drawable/btn_blue_selector"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/font_black"
+        android:textSize="@dimen/font_normal"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/add_server_help"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ID_AD_VIEW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2925148926153054/9599973920" />
+</LinearLayout>

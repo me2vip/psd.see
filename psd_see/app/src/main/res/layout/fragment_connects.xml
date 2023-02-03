@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@mipmap/titleback"
+        >
+                <TextView
+                    android:id="@+id/ID_TXT_TITLE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="middle"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_gravity="center"
+                    android:text="@string/connections"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <Button
+                android:id="@+id/ID_BTN_LEFT"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_normal"
+                android:background="@drawable/btn_back_selector"
+                android:layout_gravity="center_vertical"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/ID_BTN_REMOVE"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_normal"
+                android:background="@drawable/btn_remove_1_selector"
+                />
+
+            <Button
+                android:id="@+id/ID_BTN_ADD"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@drawable/btn_add_selector"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_normal"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/ID_IMG_WIFI"
+            android:src="@mipmap/wiff_disable"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ID_TXT_WIFI"
+            android:layout_gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/font_normal"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/splite_color"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/line_gray"
+        />
+    <ListView
+        android:id="@+id/ID_LIST_VIEW"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:listSelector="#00000000"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ID_AD_VIEW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2925148926153054/9599973920" />
+</LinearLayout>

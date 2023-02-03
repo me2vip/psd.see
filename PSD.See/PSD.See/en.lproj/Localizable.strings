@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  PSD.See
+
+  Created by Larry on 16/10/1.
+  Copyright © 2016年 MaiMiao. All rights reserved.
+*/
+"deleting" = "Delete";
+"synctitle" = "Connections";
+"wifinotconnect" = "No Wifi connection is detected";
+"add connect" = "New Connection";
+"add" = "Add";
+"server ip" = "Server IP";
+"hint server ip" = "Enter Server IP Address";
+"passwrod" = "Password";
+"hint password" = "Enter Password";
+"new server help" = "Enter the IP address and password found at 'Edit' > 'Remote Connections' in Adobe Photoshop CS5(12.0.4) or later";
+"serverIpNull" = "Please Input the Server IP Address";
+"passwordNull" = "Please Input the Password";
+"connectServerFail" = "Can't connect to server";
+"createKeyFail" = "Build secret key fail";
+"passwordError" = "Your password error, Please enter the correct password";
+"imageTypeError" = "Support JPEG type only";
+"about" = "About";
+"delete" = "Delete";
+"psversion" = "Please run Photoshop CS5(12.0.4) or newer version on your PC";
+"helpWifi" = "Connect both computer and mobile with same WiFi network";
+"editmenu" = "Select 'Edit' > 'Remote Connections...' in Photoshop'menu";
+"openConnect" = "Enter your password and check 'Enable Remote Connections'";
+"helpRemoteConnect" = "Remote Connections info";
+"helpRemoteConnect6" = "Enter the IP address and password found at 'Edit' > 'Remote Connections' in Adobe Photoshop. See step 3";
+"error_save_title" = "Can't access Photos";
+"error_save_info" = "Please allow PSD.See to access your photos in iPhone's \"Settings-Privacy-photos\".";
+"save_ok" = "Save Success";
+"ok" = "OK";
+"not_connect_ps" = "Not connected to Photoshop";
+"check_update" = "Check update";
+"loading" = "Loading...";
+"http_error" = "Network error, please try again later";
+"server_error" = "Server error, please try again later";
+"no_need_update" = "No need update";
+"need_update" = "Newer Version already in App Store, Recommend to update";
+"update_now" = "Update Now";
+"next_time" = "Update Later";
+"review_me" = "Review me";
+"transfer" = "Transfer file";
+"error_file" = "Error file information";
+"no_ip" = "NO IP address";
+"qr_info_1" = "Please scan the QR code or input ";
+"qr_info_2" = " in your browser";
+"scan_qr_code" = "Scan QR Code";
+"scan_info" = "Align QR Code within frame to scan";
+"file_invalid" = "File information invalid";
+"open_photos" = "Open photos";
+"help" = "Help";
+"refresh_finish" = "Refresh finish";
+"comment_info" = "If the app is helpful to you, please give us a good comment or make your suggestion to us";
+"comment_ok" = "Go";
+"comment_cancel" = "Next time";
+"reload_images" = "Reload images";
+"error_1" = "File information is invalid, must be PSD format";
+"error_2" = "Color mode mest be RGB";
+"error_4" = "Not support compression mode, only  support RLE compression";
+"error_5" = "The depth must be 8 bit";
+"error_6" = "Open file fail";
+"up" = "Upper";
+"file_list" = "File List";
+"Source code link" = "Source code link";
