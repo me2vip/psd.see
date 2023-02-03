@@ -1,4 +1,3 @@
-# PSD.See 项目说明
 PSD.See is a professional tool for Adobe Photoshop'psd file, support android and ios. you could search "PSD.See" in App store and download for ios; for android you could search and download it in google play or other app market;You can browse psd file of Adobe Photoshop, bmp, jpg and png format images by PSD.See.
 # Project description
 ## PSD.See
