@@ -78,3 +78,9 @@ universal-image-loader
 utdid4all
 
 netty
+
+
+### 编译注意
+# 这是早期项目，很多东西已经不兼容，新版Android Studio已经不能直接编译
+# 使用 Aide 仍然可以编译，可能后面也不兼容了
+# 我会在release提供Aide和已经编译好的安装包
